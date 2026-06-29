@@ -16,7 +16,8 @@ button{
     transition: 0.3s;
 }
 button:hover{
-    background-color: #9d63af;
+    background-color: #b53eda;
+    padding: 11px 21px;
 }
 h2 {
     text-align: center;
@@ -47,8 +48,12 @@ input:focus {
     background-color: whitesmoke;
     outline: none;
 }
-#hero {
+.hero {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .about {
     margin-left: 16px;
@@ -61,4 +66,12 @@ form {
     width: 500px;
     border-radius: 16px;
     margin-top: 16px;
+}
+.about {
+    border: none;
+    border-radius: 16px;
+    padding: 10px 20px;
+    background-color: #1c2947;
+    width: 50%;
+    margin-top: 10px;
 }
