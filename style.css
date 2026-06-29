@@ -60,6 +60,11 @@ input:focus {
 }
 form {
     margin-left: 16px;
+    background-color: #1c2947;
+    width: 90%;
+    border-radius: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
 }
 #hero img {
     display: block;
@@ -73,5 +78,5 @@ form {
     padding: 10px 20px;
     background-color: #1c2947;
     width: 50%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
